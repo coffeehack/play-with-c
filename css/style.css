@@ -122,7 +122,7 @@ font-family: 'Indie Flower', cursive;
 }
 
 .as {
-	width: 700px;
+	max-width: 500px;
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -145,7 +145,7 @@ font-family: 'Indie Flower', cursive;
 	font-size: 30px;
 	font-weight: 300;
   opacity: 0;
-	width: 700px;
+	max-width: 500px;
   transition: all 1s ease-in-out;
   transform: translateY(50px);
 
@@ -154,7 +154,7 @@ font-family: 'Indie Flower', cursive;
 	display: block;
 	margin-left: auto;
 	margin-right:  auto;
-	width: 700px;
+	max-width: 500px;
 	overflow: hidden;
 	margin-top: 70px;
 	font-family: 'Open Sans', sans-serif;
@@ -171,15 +171,16 @@ font-family: 'Indie Flower', cursive;
 	margin-right:  auto;
 	margin-top: 70px;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: 300;
   opacity: 0;
 	overflow: hidden;
-  width: 700px;
+  max-width: 500px;
 	transition: all 2s cubic-bezier(0,1.91,1,-0.65);
   transform: translateY(50px) rotateX(30deg);
 
 }
+
 .fade-in {
 	opacity: 1;
 transform: translateX(0px);
